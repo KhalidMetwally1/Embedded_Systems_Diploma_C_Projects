@@ -2,10 +2,10 @@
 void XCHNG_pm (int*,int*); //Swap 2 numbers using plus and minus
 void XCHNG_xor(int*,int*); //Swap 2 numbers using XOR
 void XCHNG_md (int*,int*); //Swap 2 numbers using Multiplication and Division
-int x,y;
 
 void main()
 {	
+	int x,y;
 	printf("Enter X Value: ");
 	scanf("%i",&x);
 	printf("Enter Y Value: ");
