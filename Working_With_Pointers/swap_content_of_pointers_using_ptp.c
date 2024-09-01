@@ -24,5 +24,5 @@ void swap_pointers (char ** ptp1,char ** ptp2) //ptp: Pointer To Pointer
 {
 	(**ptp1) = (**ptp1) ^ (**ptp2);
 	(**ptp2) = (**ptp1) ^ (**ptp2);
-	(**ptp1) = (**ptp1) ^ (**ptp2)
+	(**ptp1) = (**ptp1) ^ (**ptp2);
 }
